@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root { /* configurações gerais de todo o documento */
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-div: 'Sriracha', cursive;
+    --fonte-titulo: 'Passion One', cursive;
+    --cor01: white;
+    --cor02: black;
+    --cor03: rgba(155, 185, 85, 0.445);
+    --cor04: rgb(41, 39, 39);
+    --cor05: rgb(5, 81, 196);
+    --cor06: rgb(65, 65, 66);
+    --cor07: rgb(247, 207, 29);
+    --cor08: rgb(236, 157, 9);
+    --cor09: rgb(20, 147, 220);
+    --cor10: rgb(17, 54, 71);
+    --cor11: rgba(219, 36, 23,0.5);
+    --cor12: rgba(253, 216, 7, 0.5);
+
+    --corhover: rgb(109, 101, 101);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilos/paletadecores.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estiloformularios.css">
+<body>
+   <header>
+      <h1>Cultura e Arte</h1>
+   </header>
+       <div class="box">
+        <form action="index.html" method="post" id="contato">
+         <a href="index.html"> <img src="imagens/menuico.png"/></a>
+            <fieldset>
+                <legend><b>Formulário de Contato</legend>
+                <br>
+                <div class="inputBox"> 
+                    <input type="text" name="nome_usuario" id="nome" class="inputUser" required>
+                    <label form="nome" class="labelInput">Nome completo</label>
+                 </div>
+                 <br>
+
+                 <div class="inputBox"> 
+                    <input type="email" name="email_usuario" id="email" class="inputUser" required>
+                    <label form="email" class="labelInput">Email</label>
+                 </div>
+                 <br>
+
+                 <div class="textarea"> 
+                     <textarea name="texto_usuario" id="confirma_senha" class="textarea" placeholder="Digite sua mensagem aqui"></textarea> 
+                     
+                 </div>
+                 <br><br>
+
+                 <input type="submit" name="submit" id="submit" value="Enviar" onclick="index.html">
+            </fieldset>
+        </form>
+    </div>  
+</body>
+</html>
