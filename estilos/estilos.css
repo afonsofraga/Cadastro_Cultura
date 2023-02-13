@@ -247,7 +247,11 @@ footer a {
 }
 
 footer{
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: auto;
     position: relative;
+    position: inherit;
     background-color: var(--cor04);
     text-align: center;
     padding: 10px;
