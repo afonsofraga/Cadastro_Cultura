@@ -200,7 +200,7 @@ section > p {
 }
 
 section#img01 {
-    background-image: url("../imagens/fundosite.jpg");
+    background-image: url("../imagens/pexels-tima-miroshnichenko-7991182.jpg");
     background-position: right center;
     background-size: cover;
     box-shadow: inset 10px 10px 13px 0px rgba(0, 0, 0, 0.4);
@@ -243,15 +243,10 @@ section#img05 {
 footer a {
     color:var(--cor11);
     text-decoration: none;
-
 }
 
 footer{
-    max-width: 100vw;
-    max-height: 100vh;
-    margin: auto;
     position: relative;
-    position: inherit;
     background-color: var(--cor04);
     text-align: center;
     padding: 10px;
