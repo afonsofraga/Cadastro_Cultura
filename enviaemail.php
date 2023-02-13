@@ -1,13 +1,15 @@
-<?php 
+<?
 
-if (isset($_POST['email_usuario']) && !empty($_POST['email_usuario']))
+# alterar a variavel abaixo colocando o seu email
 
-$nome = addcslashes($_POST['nome_usuario']);
-$email = addcslashes($_POST['email_usuario']);
-$mensagem = addcslashes($_POST['texto_usuario']);
+$destinatario = "ahfsouzaengenharia@gmail.com";
 
-$to = 'afonsofraga.mg@gmail.com';
-$subject = "formulario de contato do Site Cultura";
+$nome = $_REQUEST['nome'];
+$email = $_REQUEST['email'];
+$mensagem = $_REQUEST['mensagem'];
+$assunto = $_REQUEST['assunto'];
+
+ // monta o e-mail na variavel $body
 
 $body = "===================================" . "\n";
 $body = $body . "FALE CONOSCO - TESTE COMPROVATIVO" . "\n";
@@ -22,17 +24,5 @@ mail($destinatario, $assunto , $body, "From: $email\r\n");
 
 // redireciona para a página de obrigado
 header("index.htm");
-?>
-
-
-
-
-
-
-
-
-
-
 
 ?>
-
