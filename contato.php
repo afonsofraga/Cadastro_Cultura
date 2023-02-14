@@ -17,7 +17,7 @@
       <h1>Cultura e Arte</h1>
    </header>
        <div class="box">
-        <form action="processacontato" method="post" id="contato">
+        <form action="processacontato.php" method="post" id="contato">
          <a href="index.html"> <img src="imagens/menuico.png"/></a>
             <fieldset>
                 <legend><b>Formulário de Contato</legend>

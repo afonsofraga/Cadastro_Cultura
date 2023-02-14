@@ -1,11 +1,11 @@
 <?php
 
 include_once("concectabanco.php");
-$nome = $_POST['nome_'];
+$nome = $_POST['nome'];
 $email = $_POST['email'];
-$text = $_POST['texto'];
+$texto = $_POST['texto'];
 
-$sql = "insert into contatos (nome,email,texto) values ('$nome','$email','$texto')";
+$sql = "insert into contatos(nome,email,texto) values ('$nome','$email','$texto')";
 $salvar = mysqli_query($conexao,$sql);
 
 $linhas = mysqli_affected_rows($conexao);
