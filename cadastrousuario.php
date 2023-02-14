@@ -13,8 +13,8 @@
       <h1>Cultura e Arte</h1>
    </header>
        <div class="box">
-        <form action="index.html" method="post">
-         <a href="processaconectabanco.php"> <img src="imagens/menuico.png"/></a>
+        <form action="processaconecta.php" method="post">
+         <a href="processaconecta.php"> <img src="imagens/menuico.png"/></a>
             <fieldset>
                 <legend><b>Cadastro de Usuários</legend>
                 <br>
