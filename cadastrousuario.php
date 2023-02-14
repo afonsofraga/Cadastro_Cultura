@@ -1,3 +1,8 @@
+<?php 
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -24,7 +29,7 @@
                  </div>
                  <br>
                  <div class="inputBox"> 
-                     <input type="cpf" name="cpf" id="cpf" class="inputUser" required pattern="^(\d{3}\.\d{3}\.\d{3}-\d{2})|(\d{11})$" title="Digite o cpf corretamente"/><br/>
+                     <input type="cpf" name="cpf" id="cpf" class="inputUser" required title="Digite o cpf corretamente"/><br/>
                      <label form="cpf" class="labelInput">CPF</label>
                   </div>
                   <br>
