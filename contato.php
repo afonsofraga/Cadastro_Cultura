@@ -34,10 +34,9 @@
                  </div>
                  <br>
 
-                 <div class="textarea"> 
-                     <textarea name="texto" id="texto" class="textarea" placeholder="Digite sua mensagem aqui"></textarea> 
-                     
-                 </div>
+                <div class="textarea">
+                     <textarea name="mensagem" id="mensagem" class="mensagem" placeholder="Digite sua mensagem aqui"></textarea> 
+                </div>
                  <br><br>
 
                  <input type="submit" name="submit" id="submit" value="Enviar" onclick="index.html">
