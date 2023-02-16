@@ -1,6 +1,6 @@
 <?php 
 
-include_once("concectabanco.php");
+include_once("conectabanco.php");
 $nome = $_POST['nome'];
 $cpf = $_POST['cpf'];
 $email = $_POST['email'];
