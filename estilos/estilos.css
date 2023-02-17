@@ -180,7 +180,9 @@ section {
     padding-top: 5vh;
     padding-bottom: 5vh;
     padding-left: 30px;
+    padding-right: 30px;
     line-height: 2em;
+    color: var(--cor02);
 }
 section.normal{
     color: var(--cor01);
@@ -242,11 +244,10 @@ section#img05 {
 }
 
 article{
-width: 100%;
-box-sizing: border-box;
-padding: 10px;
-background-color: var(--cor06);
-margin-bottom: 5px;
+    color: var(--cor01);
+    background-color: var(--cor11);
+    color: var(--cor01);
+
 }
 
 footer a {

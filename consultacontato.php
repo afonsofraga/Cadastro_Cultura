@@ -17,43 +17,40 @@ $registros = mysqli_num_rows($consulta);
     <title>Cadastro artítico cultural</title>
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estilos.css">
-    <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
 <body>
     <header>
         <h1>Consultas</h1>
     </header>
     <section>
-        <form action="" method="get">
+        <form action="" method="get" class="consulta">
             Filtrar por data: <input type="date" name="filtro" class="campo" required autofocus>
             <input type="submit" value="Pesquisar" class="btn">
         </form>
 
 
         <?php 
-        print "$registros registros encontrados";
+            print "$registros registros encontrados";
 
-        print "<br><br>";
-        while ($exibirRegistros = mysqli_fetch_array($consulta)){
-            $codigo = $exibirRegistos[0];
-            $nome = $exibirRegistos[1];
-            $email = $exibirRegistos[2];
-            $mensagem = $exibirRegistos[3];
-            $dataenvio = $exibirRegistos[4];
-            $horaenvio = $exibirRegistos[5];
+            print "<br><br>";
+            while ($exibiregistros = mysqli_fetch_array($consulta)){
+                $codigo = $exibiregistros[0];
+                $nome = $exibiregistros[1];
+                $email = $exibiregistros[2];
+                $mensagem = $exibiregistros[3];
+                $dataenvio = $exibiregistros[4];
+                $horaenvio = $exibiregistros[5];
 
-            print "<article>";
-                print "$codigo";
-                print "$nome";
-                print "$email";
-                print "$mensagem";
-                print "$dataenvio"; 
-                print "$horaenvio"; 
-            print "</article>";
-        }
-        mysqli_close($conexao);
-
-
+                print "<article>";
+                    print "$codigo <br>";
+                    print "Nome: $nome <br>";
+                    print "Email: $email <br>";
+                    print "Mensagem: $mensagem <br>";
+                    print "Data de Envio: $dataenvio <br>"; 
+                    print "Hora de Envio: $horaenvio <br>"; 
+                print "</article>";
+            }
+            mysqli_close($conexao);
         ?>
     </section>
 
