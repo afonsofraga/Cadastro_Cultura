@@ -17,10 +17,10 @@
     <section class="normal">
         <p>
             Visando disponibilizar para todo artista uma ferramenta de apresentação pessoal e auto promoção. 
-            Sua vitrine.
-            quem é você
-            seu seguimento de trabalho
-            a quanto tempo vc trabalha 
+            Sua vitrine.<br>
+            quem é você ?<br>
+            seu seguimento de trabalho<br>
+            a quanto tempo vc trabalha <br>
             Serve para comunicar visualmente os trabalhos que melhor representam a sua atuação profissional.
             Se sua área de atuação for diversificada deverá fazer um portifóleo específico para cada área de atuação.
             definir seu seguimento artístico.
