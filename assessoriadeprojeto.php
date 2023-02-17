@@ -13,7 +13,7 @@
     <header>
         <h1>Cultura e Arte</h1>
     </header>
-    <a href="index.html"> <img src="imagens/menuico.png"/></a>
+    <a href="index.php"> <img src="imagens/menuico.png"/></a>
     
     <section class="normal">
         <p>
@@ -32,6 +32,6 @@
         </p>
     </section>
     <br>
-    <object width="100%" data="rodape.html"></object>
+    <object width="100%" data="rodape.php"></object>
 </body>
 </html>

@@ -13,8 +13,8 @@
    </header>
    <!--<object width="100%" data="menu.html"></object>-->
     <div class="box">
-        <form action="index.html" method="post">
-         <a href="index.html"> <img src="imagens/menuico.png"/></a>
+        <form action="index.php" method="post">
+         <a href="index.php"> <img src="imagens/menuico.png"/></a>
             <fieldset class="principal">
                 <legend><b>Cadastro de Clientes></legend>
                 <br>

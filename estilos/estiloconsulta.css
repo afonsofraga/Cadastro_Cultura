@@ -26,19 +26,18 @@ body{
     display: inline-flex;
 }
 
-nav{
+nav#consulta{
     width: 20vw;
     height: 100vh;
     background-color: var(--cor01);
     float:left;
     position: relative;
-     ;
 }
 
-section {
+section#consulta {
     width: 80vw ;
     height: 100vh;
-    background-color: var(--cor05);
+    background-color: var(--cor12);
     margin-left: 10px;
     float: left;
     position: relative;

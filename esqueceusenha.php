@@ -33,7 +33,7 @@ echo substr(md5(time()),0 ,6);
          
     <div class="box">
         <form action="">
-            <a href="index.html"> <img src="imagens/menuico.png"/></a>
+            <a href="index.php"> <img src="imagens/menuico.png"/></a>
             <fieldset>
                 <legend>Esqueceu sua senha</legend>
                 <br>
@@ -46,6 +46,6 @@ echo substr(md5(time()),0 ,6);
             </fieldset>
         </form>
     </div>
-    <object width="100%" data="rodape.html"></object> 
+    <object width="100%" data="rodape.php"></object> 
 </body>
 </html>

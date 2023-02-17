@@ -13,7 +13,7 @@
     <header>
         <h1>Cultura e Arte</h1>
     </header>
-    <a href="index.html"> <img src="imagens/menuico.png"/></a>
+    <a href="index.php"> <img src="imagens/menuico.png"/></a>
    	<section class="normal">
         <p>Quando se contrata uma empresa de assessoria para concretização de projetos culturais,  o acompanhamento dos mesmos se torna mais eficaz. O conhecimento da empresa quanto aos trâmites para cadastramento no Ministério da Cultura e sobre os meandros das leis de incentivo, é fundamental para a boa realização de acompanhamento de projetos culturais. Integrar alguma manifestação artístico-cultural na sociedade por meio de práticas realizadas a partir de orçamentos advindos da renúncia fiscal é uma ação que merece respeito.</p>
     </section>
@@ -25,6 +25,6 @@
         <P>Outra forma de se realizar a etapa de acompanhamento de projetos culturais é seguir o andamento pelo site do Sistema de Apoio às Leis de Incentivo à Cultura (Salic), onde estão cadastrados todos os projetos culturais vigentes e que podem ser consultados livremente.</P>
     </SECTION>
     <br>
-    <object width="100%" data="rodape.html"></object>
+    <object width="100%" data="rodape.php"></object>
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empreendedores</title>
+    <title>Lei de Privacidade</title>
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
@@ -12,7 +12,8 @@
     <header>
         <h1>Cultura e Arte</h1>
     </header>
-    <a href="index.html"> <img src="imagens/menuico.png"/></a>
-    <object width="100%" data="rodape.html"></object> 
+    <!--<object width="100%" data="menu.html"></object>-->
+    <a href="index.php"> <img src="imagens/menuico.png"/></a>
+    <object width="100%" data="rodape.php"></object> 
 </body>
 </html>

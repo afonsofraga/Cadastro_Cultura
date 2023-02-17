@@ -13,7 +13,7 @@
     <header>
         <h1>Cultura e Arte</h1>
     </header>
-    <a href="index.html"> <img src="imagens/menuico.png"/></a>
+    <a href="index.php"> <img src="imagens/menuico.png"/></a>
     
     <section class="normal">
         <p>
@@ -27,9 +27,8 @@
     </section>
 
     <section class="normal">
-        <p>
-            A formatação de projeto cultural consiste na coleta de informações sobre como está se desenvolvendo seu projeto cultural. Por que é importante realizar formatação de projeto cultural? É por esse método que soluções podem ser pensadas para os problemas identificados e inclusive, prever outros tipos de percalços durante o processo. É assim que o projeto terá boa continuidade.
-            Quando bem aplicada, sobretudo com o auxílio de assessoria como a “Projetos e Cultura”, impede ocorrência de erros que podem levar ao fracasso de um projeto. Isso facilita a tomada de decisões corretas no momento certo. Pode parecer que a formatação de projeto cultural esteja ligada apenas a questões práticas relativas à documentação, à elaboração de justificativa, à captação e à administração financeira.
+        <p>A formatação de projeto cultural consiste na coleta de informações sobre como está se desenvolvendo seu projeto cultural. Por que é importante realizar formatação de projeto cultural? É por esse método que soluções podem ser pensadas para os problemas identificados e inclusive, prever outros tipos de percalços durante o processo. É assim que o projeto terá boa continuidade.
+        Quando bem aplicada, sobretudo com o auxílio de assessoria como a “Projetos e Cultura”, impede ocorrência de erros que podem levar ao fracasso de um projeto. Isso facilita a tomada de decisões corretas no momento certo. Pode parecer que a formatação de projeto cultural esteja ligada apenas a questões práticas relativas à documentação, à elaboração de justificativa, à captação e à administração financeira.
         </p>
     </section>
     <br>
@@ -38,6 +37,6 @@
             No entanto, a organização de uma equipe bem formada, objetivos que não podem ser alcançados, atividades que não foram bem organizadas são alguns exemplos de percalços que a formatação de projeto cultural também deve prever. A empresa “Projetos e O cliente será guiado até a concretização da ideia inicial até a formatação de projeto cultural.
         </p>
     </section>
-    <object width="100%" data="rodape.html"></object> 
+    <object width="100%" data="rodape.php"></object> 
 </body>
 </html>

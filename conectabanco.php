@@ -9,7 +9,4 @@ $conexao = mysqli_connect($hostname,$usuario,$passaword,$bancodedados);
 if (!$conexao) {
     print " Falha na conexão com o banco de dadsos";
 }
-
-
-
 ?>

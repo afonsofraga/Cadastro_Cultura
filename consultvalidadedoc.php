@@ -12,8 +12,8 @@
 <body>
     
     <div class="box">
-        <form name="consulta" action="index.html">
-            <a href="index.html"> <img src="imagens/menuico.png"/></a>
+        <form name="consulta" action="index.php">
+            <a href="index.php"> <img src="imagens/menuico.png"/></a>
             <div class="inputBox"> 
                 <input value="" type="text" name="cpf" id="cpf" class="inputUser" required>
                 <label form="cpf" class="labelInput">CPF</label>
@@ -34,7 +34,7 @@
             </table>
        </form>
     </div>
-    <object width="100%" data="rodape.html"></object> 
+    <object width="100%" data="rodape.php"></object> 
             
 </body>
 </html>

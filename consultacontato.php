@@ -15,24 +15,25 @@ $registros = mysqli_num_rows($consulta);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro artítico cultural</title>
-    <link rel="stylesheet" href="estilos/paletadecores.css">
-    <link rel="stylesheet" href="estilos/estiloconsulta.css">
     
+    <link rel="stylesheet" href="estilos/paletadecores.css">
+    
+    <link rel="stylesheet" href="estilos/estiloconsulta.css">
+   
 </head>
 <body>
     <header>
         <h1>Consultas</h1>
     </header>
     <div class="container">
-        <nav>
+        <nav id="consulta">
             <ul class="menu">
                 <a href="#">Menu</a>
                 <a href="consultacontato.php">Consultas</a>
             </ul>
         </nav>
-        <section>
+        <section id="consulta">
             <h2>Consultas</h2>
-            <br>
 
             <form action="" method="get" class="consulta">
                 Filtrar por nome: <input type="date" name="filtro" class="campo" required autofocus>

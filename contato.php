@@ -18,7 +18,7 @@
    </header>
        <div class="box">
         <form action="processacontato.php" method="post" id="contato">
-         <a href="index.html"> <img src="imagens/menuico.png"/></a>
+         <a href="index.php"> <img src="imagens/menuico.png"/></a>
             <fieldset>
                 <legend><b>Formulário de Contato</legend>
                 <br>
@@ -39,7 +39,7 @@
                 </div>
                  <br><br>
 
-                 <input type="submit" name="submit" id="submit" value="Enviar" onclick="index.html">
+                 <input type="submit" name="submit" id="submit" value="Enviar">
             </fieldset>
         </form>
     </div>  

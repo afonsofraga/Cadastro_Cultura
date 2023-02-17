@@ -16,8 +16,8 @@
          </header>
          <!--<object width="100%" data="menu.html"></object>-->
     <div class="box">
-        <form action="index.html">
-            <a href="index.html"> <img src="imagens/menuico.png"/></a>
+        <form action="index.php">
+            <a href="index."> <img src="imagens/menuico.png"/></a>
             
             <fieldset>
                 <legend>Login</legend>

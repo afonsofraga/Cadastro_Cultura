@@ -49,7 +49,7 @@
                  </div>
                  <br>
                  <br>
-                 <input type="submit" name="submit" id="submit" onclick="index.html">
+                 <input type="submit" name="submit" id="submit">
             </fieldset>
         </form>
     </div>  
