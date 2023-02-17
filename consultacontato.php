@@ -1,10 +1,10 @@
 <?php 
 
-include_once("conectabanco.php")
+include_once("conectabanco.php");
 
 $sql = "select * from contatos";
 $consulta = mysqli_query($conexao,$sql);
-$registros = mysqli_nun_rows($consulta);
+$registros = mysqli_num_rows($consulta);
 
 ?>
 
@@ -24,8 +24,36 @@ $registros = mysqli_nun_rows($consulta);
         <h1>Consultas</h1>
     </header>
     <section>
+        <form action="" method="get">
+            Filtrar por data: <input type="date" name="filtro" class="campo" required autofocus>
+            <input type="submit" value="Pesquisar" class="btn">
+        </form>
+
+
         <?php 
         print "$registros registros encontrados";
+
+        print "<br><br>";
+        while ($exibirRegistros = mysqli_fetch_array($consulta)){
+            $codigo = $exibirRegistos[0];
+            $nome = $exibirRegistos[1];
+            $email = $exibirRegistos[2];
+            $mensagem = $exibirRegistos[3];
+            $dataenvio = $exibirRegistos[4];
+            $horaenvio = $exibirRegistos[5];
+
+            print "<article>";
+                print "$codigo";
+                print "$nome";
+                print "$email";
+                print "$mensagem";
+                print "$dataenvio"; 
+                print "$horaenvio"; 
+            print "</article>";
+        }
+        mysqli_close($conexao);
+
+
         ?>
     </section>
 
