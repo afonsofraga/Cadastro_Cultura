@@ -26,6 +26,7 @@
             definir seu seguimento artístico.
         </p>
     </section>
+
     <section class="img" id="img03">
         <p>  
             Elementos fundamentais de um bom portifóleo:

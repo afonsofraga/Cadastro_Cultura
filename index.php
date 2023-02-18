@@ -38,6 +38,22 @@
                 <li><a href="contato.php" target=_selt rel="noopener noreferrer">Contato</a></li>
         </ul>
     </nav>  
+
+    <section>
+        <p>
+            Sérgio deverá providenciar e esclarecer o que deve ser apresentado aqufa-inverse
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, exercitationem veritatis minima, doloribus harum autem sequi, asperiores corrupti vel delectus perspiciatis. Provident aliquam at itaque unde voluptas, accusamus ducimus laboriosam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam beatae at quia dicta suscipit. Repudiandae optio vero, in dolore perferendis ex porro at facilis culpa quidem ipsam cupiditate eius.
+        </p>
+    </section>
+
+    <section>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum vero sit accusamus ad consectetur accusantium et eius quas at! Beatae quibusdam vitae nihil dignissimos reiciendis praesentium consequuntur laudantium, sequi nulla.
+        </p>
+    </section>
+
+
     <object width="100%" data="rodape.php"></object>     
     
 </body>

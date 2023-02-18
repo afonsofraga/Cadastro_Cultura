@@ -4,7 +4,6 @@ include_once("conectabanco.php");
 $nome = $_POST['nome'];
 $cpf = $_POST['cpf'];
 $email = $_POST['email'];
-$data_nascimento = $_POST['data_nascimento'];
 $senha = $_POST['senha'];
 
 $sql = "insert into usuarios (nome,cpf,email,data_nascimento,senha) values ('$nome','$cpf','$email','$data_nascimento','$senha')";

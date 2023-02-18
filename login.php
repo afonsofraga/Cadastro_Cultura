@@ -16,15 +16,15 @@
          </header>
          <!--<object width="100%" data="menu.html"></object>-->
     <div class="box">
-        <form action="index.php">
-            <a href="index."> <img src="imagens/menuico.png"/></a>
+        <form action="validacao.php">
+            <a href="index.php"> <img src="imagens/menuico.png"/></a>
             
             <fieldset>
                 <legend>Login</legend>
                 <br>
                 <div class="inputBox">
-                     <input value="" type="text" name="email" id="email" class="inputUser" required>
-                    <label form="email" class="labelInput">E-mail</label>
+                     <input value="" type="text" name="cpf" id="cpf" class="inputUser" required>
+                    <label form="cpf" class="labelInput">CPF</label>
                  </div>
                  <br>
                                  
