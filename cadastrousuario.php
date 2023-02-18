@@ -19,37 +19,32 @@
    </header>
        <div class="box">
         <form action="processaconecta.php" method="post">
-         <a href="processaconecta.php"> <img src="imagens/menuico.png"/></a>
+         <a href="index.php"> <img src="imagens/menuico.png"/></a>
             <fieldset>
-                <legend><b>Cadastro de Usuários</legend>
-                <br>
-                <div class="inputBox"> 
-                    <input type="text" name="nome" id="nome" class="inputUser" required>
-                    <label form="nome" class="labelInput">Nome completo</label>
-                 </div>
-                 <br>
-                 <div class="inputBox"> 
-                     <input type="cpf" name="cpf" id="cpf" class="inputUser" required title="Digite o cpf corretamente"/><br/>
+               <legend><b>Cadastro de Usuários</legend>
+               <br>
+               <div class="inputBox"> 
+                  <input type="text" name="nome" id="nome" class="inputUser" required>
+                  <label form="nome" class="labelInput">Nome completo</label>
+               </div>
+               <br>
+               <div class="inputBox"> 
+                  <input type="cpf" name="cpf" id="cpf" class="inputUser" required title="Digite o cpf corretamente"/><br/>
                      <label form="cpf" class="labelInput">CPF</label>
-                  </div>
-                  <br>
-                 <div class="inputBox"> 
-                    <input type="text" name="email" id="email" class="inputUser" required>
-                    <label form="email" class="labelInput">Email</label>
+               </div>
+               <br>
+               <div class="inputBox"> 
+                  <input type="text" name="email" id="email" class="inputUser" required>
+                  <label form="email" class="labelInput">Email</label>
                  </div>
-                 <br>
-                 <div class="inputBox">
-                     <label form="data_nascimento">Data de Nascimento</label>
-                     <input type="date" name="data_nascimento" id="data_nascimento" required>
-                  </div>   
-                  <br><br>
-                 <div class="inputBox"> 
-                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                 <br><br>
+               <div class="inputBox"> 
+                  <input type="password" name="senha" id="senha" class="inputUser" required>
                     <label form="senha" class="labelInput">Senha</label>
-                 </div>
-                 <br>
-                 <br>
-                 <input type="submit" name="submit" id="submit">
+               </div>
+               <br>
+               <br>
+               <input type="submit" name="submit" id="submit">
             </fieldset>
         </form>
     </div>  

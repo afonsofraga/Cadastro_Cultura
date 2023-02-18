@@ -6,7 +6,7 @@ $cpf = $_POST['cpf'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-$sql = "insert into usuarios (nome,cpf,email,data_nascimento,senha) values ('$nome','$cpf','$email','$data_nascimento','$senha')";
+$sql = "insert into usuarios (nome,cpf,email,senha) values ('$nome','$cpf','$email','$senha','email', nivel, 'ativo','cadastro')";
 $salvar = mysqli_query($conexao,$sql);
 
 $linhas = mysqli_affected_rows($conexao);
