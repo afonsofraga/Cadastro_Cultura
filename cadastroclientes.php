@@ -22,9 +22,8 @@
                 <div class="inputBox"> 
                   <input type="cpf" name="cpf" id="cpf" class="inputUser" required>
                   <label form="cpf" class="labelInput">CPF</label>
-                  <br>
                </div>
-               <br><br>
+               <br>
 
                <div class="direita">
                   <fieldset>
@@ -33,43 +32,44 @@
                         <input type="tipovia" name="tipovia" id="tipovia" class="inputUser" required>
                         <label form="tipovia" class="labelInput">Tipo de via</label>
                      </div>
-                     <br><br>
+                     <br>
 
                      <div class="inputBox"> 
                         <input type="logradouro" name="logradouro" id="logradouro" class="inputUser" required>
                         <label form="logradouro" class="labelInput">Logradouro</label>
                         
                      </div>
-                     <br><br>
+                     <br>
 
                      <div class="inputBox"> 
                         <input type="numero" name="numero" id="numero" class="inputUser" required>
                         <label form="numero" class="labelInput">Número</label>
                      </div>
-                     <br><br>
+                     <br>
 
                      <div class="inputBox"> 
                         <input type="complemento" name="complemento" id="complemento" class="inputUser" required>
                         <label form="complemento" class="labelInput">Complemento</label>
                      </div>
-                     <br><br>
+                     <br>
 
                      <div class="inputBox"> 
                         <input type="bairro" name="bairro" id="bairro" class="inputUser" required>
                         <label form="bairro" class="labelInput">Bairro</label>
                      </div>
-                     <br><br>
+                     <br>
 
                      <div class="inputBox"> 
                         <input type="municipio" name="municipio" id="municipio" class="inputUser" required>
                         <label form="municipio" class="labelInput">Municipio</label>
                      </div>
-                     <br><br>
+                     <br>
+
                      <div class="inputBox"> 
                         <input list="uf" name="uf" id="uf" class="inputUser" required>
                         <label form="uf" class="labelInput">UF</label>
                      </div>
-                     <br><br>
+                     <br>
                   </fieldset> 
                </div>
 

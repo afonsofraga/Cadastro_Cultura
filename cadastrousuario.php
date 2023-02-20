@@ -37,12 +37,11 @@
                   <input type="text" name="email" id="email" class="inputUser" required>
                   <label form="email" class="labelInput">Email</label>
                  </div>
-                 <br><br>
+                 <br>
                <div class="inputBox"> 
                   <input type="password" name="senha" id="senha" class="inputUser" required>
                     <label form="senha" class="labelInput">Senha</label>
                </div>
-               <br>
                <br>
                <div class="botao">
                   <input type="submit" name="submit" id="submit">
