@@ -44,7 +44,9 @@
                </div>
                <br>
                <br>
-               <input type="submit" name="submit" id="submit">
+               <div class="botao">
+                  <input type="submit" name="submit" id="submit">
+               </div>
             </fieldset>
         </form>
     </div>  
