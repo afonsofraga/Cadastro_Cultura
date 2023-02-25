@@ -46,6 +46,7 @@ nav{
     text-align: center;
     font-size: 1.2vw;
     position: relative;
+    padding: 5px;
 }
   
 nav ul ul {
@@ -175,7 +176,12 @@ nav ul ul ul li a {
 nav ul ul ul li a:hover {
                         min-height: 100vh;
 }
+#login {
+    float:right;
+    margin-left: 50px;
+    margin-top: -6px;
 
+}
 section {
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -237,6 +243,15 @@ section#img04 {
 
 section#img05 {
     background-image: url("../imagens/imagem05.jpg");
+    background-position: left center;
+    background-size: cover;
+    box-shadow: inset 10px 10px 13px 0px rgba(0, 0, 0, 0.4);
+    color: var(--cor01);
+    background-attachment: fixed;
+}
+
+section#img06 {
+    background-image: url("../imagens/imagemindex.jpg");
     background-position: left center;
     background-size: cover;
     box-shadow: inset 10px 10px 13px 0px rgba(0, 0, 0, 0.4);

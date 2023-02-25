@@ -36,20 +36,16 @@
                     </ul>
                 <li><a href="contato.php" target=_selt rel="noopener noreferrer">Contato</a></li>
         </ul>
+        <a id="login" href="login.php"><img src="imagens/conecte-se.png"/></a>
     </nav>  
+    
 
-    <section>
+    <section class="img" id="img06">
+        <h2>Cultura em sua essência:</h2>
         <p>
-            Sérgio deverá providenciar e esclarecer o que deve ser apresentado aqufa-inverse
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, exercitationem veritatis minima, doloribus harum autem sequi, asperiores corrupti vel delectus perspiciatis. Provident aliquam at itaque unde voluptas, accusamus ducimus laboriosam?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, laboriosam beatae at quia dicta suscipit. Repudiandae optio vero, in dolore perferendis ex porro at facilis culpa quidem ipsam cupiditate eius.
+            Tem o significado de cuidar, cultivar e crescer ou ainda pode ser um conjunto de hábitos, crenças e conhecimentos de um povo ou um determinado grupo que cultiva, de algum modo, um padrão estético semelhante.
         </p>
-    </section>
 
-    <section>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum vero sit accusamus ad consectetur accusantium et eius quas at! Beatae quibusdam vitae nihil dignissimos reiciendis praesentium consequuntur laudantium, sequi nulla.
-        </p>
     </section>
 
 
