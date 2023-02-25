@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
+    <script>
+      function funcao1(){
+         alert("CPF inválido!");
+      }
+      
+
+
+
+    </script>
 <body>
    <header>
       <h1>Cultura e Arte</h1>
