@@ -11,52 +11,78 @@
 </head>
 <body>
 <div>
-    <fieldset class="direita">
-        <legend><b>Documentos</legend>
-        <div class="inputBox"> 
-            <label form="rg" class="labelInput">RG: /label>
-            <input type="file" name="rg" id="rd" class="inputUser1" value="Escolha um arquivo" required>   
-        </div>
-        <br>
+    <header>
+        <h1>Cultura e Arte</h1>
+    </header>
+    <form action="#" method="post" id="documentos">
+        <a href="index.php"> <img src="imagens/menuico.png"/></a>
+        <fieldset class="documentos">
+            <legend><b>Documentos</legend>
+            <div class="direita">
+                
+                <div class="inputBox"> 
+                    <label form="rg1" class="label">RG: </label>
+                    <label for="rg" class="btnPerson" required>Selecionar um arquivo &#187 </label>
+                    <input type="file" id="rg" required> 
+                </div>  
+                <br>
+                <div class="inputBox"> 
+                    <label form="cpf" class="label">CPF: </label>
+                    <label for="cpf" class="btnPerson" required>Selecionar um arquivo &#187 </label>
+                    <input type="file" id="cpf" required>    
+                </div>
+                <br>
 
-        <div class="inputBox"> 
-            <label form="cpf" class="labelInput">CPF: </label>
-            <input type="file" name="cpf" id="cpf" class="inputUser1" required>    
-        </div>
-        <br>
+                <div class="inputBox">
+                    <label form="cndf" class="label">CND FEDERAL: </label> 
+                    <label for="cndf" class="btnPerson" required>Selecionar um arquivo &#187 </label>
+                    <input type="file" id="cndf" required>    
+                </div>
+                <br>
 
-        <div class="inputBox">
-            <label form="cndf" class="labelInput">CND FEDERAL: </label> 
-            <input type="file" name="cndf" id="cndf" class="inputUser1" required>    
-        </div>
-        <br>
+                <div class="inputBox">
+                    <label form="cnde" class="label">CND ESTADUAL: </label>
+                    <label for="cpe" class="btnPerson" required>Selecionar um arquivo &#187 </label>
+                    <input type="file" id="cndel" required>    
+                </div>
+                <br>
 
-        <div class="inputBox">
-            <label form="cnde" class="labelInput">CND ESTADUAL: </label>
-            <input type="file" name="cnde" id="cnde" class="inputUser1" required>
-        </div>
-        <br>
+                <div class="inputBox">
+                    <label form="cndm" class="label">CND MUNICIPAL: </label>
+                    <label for="cndm" class="btnPerson" required>Selecionar um arquivo &#187 </label>
+                    <input type="file" id="cndm" required>      
+                </div>
+                <br> 
+            
 
-        <div class="inputBox">
-            <label form="cndm" class="labelInput">CND MUNICIPAL: </label> 
-            <input type="file" name="cndM" id="cndm" class="inputUser1" required>    
-        </div>
-        <br>
+            <div class="esquerda">
 
-        <div class="inputBox"> 
-            <label form="cndel" class="labelInput">CND Eleitoral: </label>
-            <input type="file" name="cndel" id="cndel" class="inputUser1" required>
-        </div>
-        <br>
-
-        <div class="botao">
-            <input type="reset" name="reset" id="reset" value="Limpar">
-            <input type="submit" name="submit" id="submit" value="Enviar">
-        </div>
+                <div class="inputBox"> 
+                    <label form="cndel" class="label">CND Eleitoral: </label>
+                    <label for="cndel" class="btnPerson" required>Selecionar um arquivo &#187 </label>
+                    <input type="file" id="cndel" required>      
+                    <br>  
+                </div>
 
 
-</div>
+                <div class="inputBox"> 
+                    <label form="rg1" class="label">RG: </label>
+                    <label for="rg" class="btnPerson" required>Selecionar um arquivo &#187 </label>
+                    <input type="file" id="rg" required> 
+                </div>  
 
-    
+
+
+
+
+
+            </div>
+            <div class="botao">
+                <input type="reset" name="reset" id="reset" value="Limpar">
+                <input type="submit" name="submit" id="submit" value="Enviar">
+            </div>
+            </div>
+        </fieldset>
+    </form>
 </body>
 </html>

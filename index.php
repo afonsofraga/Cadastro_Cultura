@@ -27,7 +27,6 @@
                     <li><a href="cartão.php" target=_selt rel="noopener noreferrer">Cartão de Visita</a></li>
                 </ul>
         
-                <li><a href="patrocinadores.php" target=_selt rel="noopener noreferrer">Patrocinadores</a>
                 <li><a href="#" target=_selt rel="noopener noreferrer">Clientes</a>
                 <li><a href="editais.php"target=_selt rel="noopener noreferrer">Editais</a>
                 <li><a href="" target=_selt rel="noopener noreferrer">Acesso</a>

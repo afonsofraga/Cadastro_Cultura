@@ -26,6 +26,21 @@ form {
     margin-top: 20px;
 }
 
+form#documentos {
+    /* Apenas para centralizar o form na página */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0,0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 80vw;
+    color: var(--cor01);
+    margin-top: 20px;
+}
+
+
 .principal{
     width:100%;
     display:flex;
@@ -39,6 +54,18 @@ fieldset{
     width: 95%;
 }
 
+fieldset.documentos {
+    display: inline-flex;
+
+}
+
+div#direita{
+    float:left;
+}
+
+div#esquerda{
+    float:left;
+}
 
 legend {
     text-align: center;
@@ -65,6 +92,19 @@ legend {
     padding: 1px;
 }
 
+input[type='file'] {
+    display:none;
+}
+
+.btnPerson {
+    background-color: #3498db;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: -15px;
+  }
+
 .textarea {
     vertical-align: top;
     background-color: var(--cor01);
@@ -78,6 +118,9 @@ legend {
     height: 200px;
 }
 
+.label{
+    padding-right: 15px;
+}
 .labelInput {
     position: absolute;
     top: 1px;
