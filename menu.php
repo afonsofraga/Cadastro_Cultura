@@ -20,7 +20,7 @@
                     <li><a href="cadastroartistico.php" target=_selt rel="noopener noreferrer">Cadastro Artístio Cultural</a></li>
                     <li><a href="acompanhamentodeprojetos.php" target=_selt rel="noopener noreferrer">Acompanhamento de Projetos Culturais</a></li>
                     <li><a href="formatacaodeprojeto.php" target=_selt rel="noopener noreferrer">Formatação de Projeto Cultural</a></li>
-                    <li><a href="cartão.php" target=_selt rel="noopener noreferrer">Cartão de Visita</a></li>
+                    <li><a href="cartao.php" target=_selt rel="noopener noreferrer">Cartão de Visita</a></li>
                 </ul>
         
                 <li><a href="#" target=_selt rel="noopener noreferrer">Clientes</a>
