@@ -13,7 +13,7 @@
         <h1>Cultura e Arte</h1>
     </header>
     <a href="index.php"> <img src="imagens/menuico.png"/></a>
-    <object width="100%" data="rodape.php"></object> 
+    <?php require 'rodape.php' ?>
     
 </body>
 </html>

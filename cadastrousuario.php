@@ -1,6 +1,5 @@
 <?php 
-
-
+   include_once("validarcpf.php");
 ?>
 
 <!DOCTYPE html>
@@ -14,13 +13,7 @@
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
     <script>
-      function funcao1(){
-         alert("CPF inválido!");
-      }
-      
-
-
-
+      alert()
     </script>
 <body>
    <header>
@@ -38,7 +31,7 @@
                </div>
                <br>
                <div class="inputBox"> 
-                  <input type="cpf" name="cpf" id="cpf" class="inputUser" required title="Digite o cpf corretamente"/><br/>
+                  <input type="cpf" name="cpf" id="cpf" class="inputUser" required onfocusout="validacpf()"><br/>
                      <label form="cpf" class="labelInput">CPF</label>
                </div>
                <br>
@@ -57,6 +50,7 @@
                </div>
             </fieldset>
         </form>
-    </div>  
+    </div>
+    <?php require 'rodape.php' ?>
 </body>
 </html>

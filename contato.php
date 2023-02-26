@@ -42,6 +42,7 @@
                  <input type="submit" name="submit" id="submit" value="Enviar">
             </fieldset>
         </form>
-    </div>  
+    </div>
+    <?php require 'rodape.php' ?>
 </body>
 </html>

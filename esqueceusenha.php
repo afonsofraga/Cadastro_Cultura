@@ -46,6 +46,6 @@ echo substr(md5(time()),0 ,6);
             </fieldset>
         </form>
     </div>
-    <object width="100%" data="rodape.php"></object> 
+    <?php require 'rodape.php' ?>
 </body>
 </html>

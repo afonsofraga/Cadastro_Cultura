@@ -69,7 +69,7 @@ $registros = mysqli_num_rows($consulta);
             ?>
         </section>
     </div>-->
-
+    <?php require 'rodape.php' ?>
 </body>
 
 </html>

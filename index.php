@@ -16,41 +16,13 @@
     <header>
         <h1>Cultura e Arte</h1>
     </header>
-    <nav id="menu">
-        <ul>
-            <li><a href="index.php" target=_selt rel="noopener noreferrer">Home</a></li>
-            <li><a href="#" target=_selt rel="noopener noreferrer">Serviços</a>
-                <ul>
-                    <li><a href="cadastroartistico.php" target=_selt rel="noopener noreferrer">Cadastro Artístio Cultural</a></li>
-                    <li><a href="acompanhamentodeprojetos.php" target=_selt rel="noopener noreferrer">Acompanhamento de Projetos Culturais</a></li>
-                    <li><a href="formatacaodeprojeto.php" target=_selt rel="noopener noreferrer">Formatação de Projeto Cultural</a></li>
-                    <li><a href="cartão.php" target=_selt rel="noopener noreferrer">Cartão de Visita</a></li>
-                </ul>
-        
-                <li><a href="#" target=_selt rel="noopener noreferrer">Clientes</a>
-                <li><a href="editais.php"target=_selt rel="noopener noreferrer">Editais</a>
-                <li><a href="" target=_selt rel="noopener noreferrer">Acesso</a>
-                    <ul>
-                        <li><a href="Login.php" target=_selt rel="noopener noreferrer">Usuário Cadastrato</a></li>
-                        <li><a href="cadastrousuario.php" target=_selt rel="noopener noreferrer">Cadastre-se</a></li>
-                    </ul>
-                <li><a href="contato.php" target=_selt rel="noopener noreferrer">Contato</a></li>
-        </ul>
-        <a id="login" href="login.php"><img src="imagens/conecte-se.png"/></a>
-    </nav>  
-    
-
+    <?php require 'menu.php'?>
     <section class="img" id="img06">
         <h2>Cultura em sua essência:</h2>
         <p>
             Tem o significado de cuidar, cultivar e crescer ou ainda pode ser um conjunto de hábitos, crenças e conhecimentos de um povo ou um determinado grupo que cultiva, de algum modo, um padrão estético semelhante.
         </p>
-
     </section>
-
-
-    <object width="100%" data="rodape.php"></object>     
-    
+    <?php require 'rodape.php' ?>
 </body>
-
 </html>

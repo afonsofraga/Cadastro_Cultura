@@ -14,6 +14,6 @@
     </header>
     <!--<object width="100%" data="menu.html"></object>-->
     <a href="index.php"> <img src="imagens/menuico.png"/></a>
-    <object width="100%" data="rodape.php"></object> 
+    <?php require 'rodape.php' ?>
 </body>
 </html>

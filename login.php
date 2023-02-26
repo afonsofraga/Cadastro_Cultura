@@ -40,6 +40,7 @@
                  <input type="reset" name="reset" id="reset">
             </fieldset>
         </form>
-    </div>    
+    </div>
+    <?php require 'rodape.php' ?>
 </body>
 </html>

@@ -20,7 +20,7 @@
                 <br>
                 <br>
                 <div class="inputBox"> 
-                  <input type="cpf" name="cpf" id="cpf" class="inputUser" required>
+                  <input type="cpf" name="cpf" id="cpf" class="inputUser" onchange="validaCPF();" required>
                   <label form="cpf" class="labelInput">CPF</label>
                </div>
                <br>
@@ -117,5 +117,6 @@
             </fieldset>
     </form>
     </div>
+    <?php require 'rodape.php' ?>
  </body>
 </html>

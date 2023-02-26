@@ -34,7 +34,6 @@
             </table>
        </form>
     </div>
-    <object width="100%" data="rodape.php"></object> 
-            
+    <?php require 'rodape.php' ?>            
 </body>
 </html>

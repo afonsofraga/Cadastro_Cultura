@@ -37,6 +37,6 @@
             No entanto, a organização de uma equipe bem formada, objetivos que não podem ser alcançados, atividades que não foram bem organizadas são alguns exemplos de percalços que a formatação de projeto cultural também deve prever. A empresa “Projetos e O cliente será guiado até a concretização da ideia inicial até a formatação de projeto cultural.
         </p>
     </section>
-    <object width="100%" data="rodape.php"></object> 
+    <?php require 'rodape.php' ?>
 </body>
 </html>

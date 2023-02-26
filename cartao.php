@@ -76,6 +76,6 @@
             portifólio sempre atualizado
         </p>
     </section>
-    <object width="100%" data="rodape.html"></object> 
+    <?php require 'rodape.php' ?>
 </body>
 </html>
