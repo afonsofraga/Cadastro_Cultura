@@ -10,11 +10,7 @@
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
 <body>
-    <header>
-        <header>
-            <h1>Cultura e Arte</h1>
-         </header>
-         <!--<object width="100%" data="menu.html"></object>-->
+    <?php require 'menu.php' ?>
     <div class="box">
         <form action="validacao.php">
             <a href="index.php"> <img src="imagens/menuico.png"/></a>

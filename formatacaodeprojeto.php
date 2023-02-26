@@ -10,11 +10,7 @@
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
 <body>
-    <header>
-        <h1>Cultura e Arte</h1>
-    </header>
-    <a href="index.php"> <img src="imagens/menuico.png"/></a>
-    
+    <?php require 'menu.php' ?>   
     <section class="normal">
         <p>
             Uma ideia bem planejada gera um projeto bem estruturado. Mas, são muitas as variáveis entre o começo, a ideia, e o fim do projeto executado. Para a realização de um projeto cultural, a descrição, o cronograma e a definição de como o projeto será realizado se tornam itens fundamentais.

@@ -10,11 +10,7 @@
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
 <body>
-    <header>
-        <h1>Cultura e Arte</h1>
-    </header>
-    <a href="index.php"> <img src="imagens/menuico.png"/></a>
-    
+    <?php require 'menu.php' ?>
     <section class="normal">
         <p>
             O papel da assessoria para projetos culturais é de auxiliar o cliente e idealizador do projeto cultural à confeccionar o projeto cultural visando sua aprovação junto ao Ministério da Cultura.

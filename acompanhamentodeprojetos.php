@@ -10,10 +10,6 @@
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
 <body>
-    <header>
-        <h1>Cultura e Arte</h1>
-    </header>
-    <a href="index.php"> <img src="imagens/menu-aberto.png"/></a>
     <?php require 'menu.php' ?>
    	<section class="normal">
         <p>Quando se contrata uma empresa de assessoria para concretização de projetos culturais,  o acompanhamento dos mesmos se torna mais eficaz. O conhecimento da empresa quanto aos trâmites para cadastramento no Ministério da Cultura e sobre os meandros das leis de incentivo, é fundamental para a boa realização de acompanhamento de projetos culturais. Integrar alguma manifestação artístico-cultural na sociedade por meio de práticas realizadas a partir de orçamentos advindos da renúncia fiscal é uma ação que merece respeito.</p>

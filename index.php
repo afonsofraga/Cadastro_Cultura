@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="estilos/estiloformlogin.css">
 </head>
 <body>
-    <header>
-        <h1>Cultura e Arte</h1>
-    </header>
     <?php require 'menu.php'?>
     <section class="img" id="img06">
         <h2>Cultura em sua essência:</h2>

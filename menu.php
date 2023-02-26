@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
+<header>
+      <h1>Cultura e Arte</h1>
+</header>
 <nav id="menu">
         <ul>
             <li><a href="index.php" target=_selt rel="noopener noreferrer">Home</a></li>
@@ -31,6 +34,5 @@
         </ul>
         <a id="login" href="login.php"><img src="imagens/conecte-se.png"/></a>
     </nav>
-    <?php require 'rodape.php' ?> 
 </body>
 </html>

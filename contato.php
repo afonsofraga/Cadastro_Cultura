@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 <body>
-   <header>
-      <h1>Cultura e Arte</h1>
-   </header>
+   <?php require 'menu.php' ?>
        <div class="box">
         <form action="processacontato.php" method="post" id="contato">
          <a href="index.php"> <img src="imagens/menuico.png"/></a>

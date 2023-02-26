@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
 <body>
-    
+    <?php require 'menu.php' ?>
     <div class="box">
         <form name="consulta" action="index.php">
             <a href="index.php"> <img src="imagens/menuico.png"/></a>

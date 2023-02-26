@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
-    <header>
-        <h1>Cultura e Arte</h1>
-    </header>
+    <?php require 'menu.php' ?>
     <!--<object width="100%" data="menu.html"></object>-->
     <a href="index.php"> <img src="imagens/menuico.png"/></a>
     <?php require 'rodape.php' ?>

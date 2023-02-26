@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 <body>
-   <header>
-      <h1>Cultura e Arte</h1>
-   </header>
-   <!--<object width="100%" data="menu.html"></object>-->
+   <?php require 'menu.php' ?>
     <div class="box">
         <form action="index.php" method="post">
          <a href="index.php"> <img src="imagens/menuico.png"/></a>

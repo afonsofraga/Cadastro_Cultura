@@ -16,9 +16,7 @@
       alert()
     </script>
 <body>
-   <header>
-      <h1>Cultura e Arte</h1>
-   </header>
+      <?php require 'menu.php' ?>
        <div class="box">
         <form action="processaconecta.php" method="post">
          <a href="index.php"> <img src="imagens/menuico.png"/></a>

@@ -22,9 +22,7 @@ $registros = mysqli_num_rows($consulta);
    
 </head>
 <body>
-    <header>
-        <h1>Consultas</h1>
-    </header>
+    <?php require 'menu.php' ?>
     <div class="container">
         <nav id="consulta">
             <ul class="menu">

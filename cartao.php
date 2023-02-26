@@ -9,10 +9,7 @@
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
-    <header>
-        <h1>Cultura e Arte</h1>
-    </header>
-    <!--<object width="100%" data="menu.html"></object>-->
+    <?php require 'menu.php' ?>
     <a href="index.php"> <img src="imagens/menuico.png"/></a>
     <section class="normal">
         <p>
