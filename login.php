@@ -11,10 +11,8 @@
 </head>
 <body>
     <?php require 'menu.php' ?>
-    <div class="box">
-        <form action="validacao.php">
-            <a href="index.php"> <img src="imagens/menuico.png"/></a>
-            
+    <div>
+        <form id="login" action="validacao.php">
             <fieldset>
                 <legend>Login</legend>
                 <br>

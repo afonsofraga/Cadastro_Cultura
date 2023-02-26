@@ -8,63 +8,14 @@
     padding: 5;
 }
 
-body{
-    background-image: linear-gradient(to right,var(--cor09),var(--cor10));
+div {
+    position: relative;
+    padding: 20px;
 }
-
-form {
-    /* Apenas para centralizar o form na página */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(0, 0, 0,0.6);
-    padding: 15px;
-    border-radius: 15px;
-    width: 30vw;
-    color: var(--cor01);
-    margin-top: 20px;
-}
-
-form#documentos {
-    /* Apenas para centralizar o form na página */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(0, 0, 0,0.6);
-    padding: 15px;
-    border-radius: 15px;
-    width: 80vw;
-    color: var(--cor01);
-    margin-top: 20px;
-}
-
-
-.principal{
-    width:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
 fieldset{
     border: 1px solid var(--cor09);
     padding: 10px;
     width: 95%;
-}
-
-fieldset.documentos {
-    display: inline-flex;
-
-}
-
-div#direita{
-    float:left;
-}
-
-div#esquerda{
-    float:left;
 }
 
 legend {
@@ -144,14 +95,14 @@ input[type='file'] {
 }
 
 .botao{
-    width:100%;
+    width:50%;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 #submit, #reset {
     background-image: linear-gradient(to right,var(--cor05),var(--cor10));
-    width: 50%;
+    width: 30%;
     border: none;
     padding: 15px;
     color:var(--cor01);
