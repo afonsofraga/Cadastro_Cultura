@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php require 'menu.php'?>
+    <?php require_once 'menu.php'?>
     <section class="img" id="img06">
         <h2>Cultura em sua essência:</h2>
         <p>
