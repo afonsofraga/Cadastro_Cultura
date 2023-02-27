@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-br>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loguin</title>
-    <link rel="stylesheet" href="estilos/paletadecores.css">
-    <link rel="stylesheet" href="estilos/estilos.css">
-    <link rel="stylesheet" href="estilos/estiloformularios.css">
+    <title>Loguin</title>   
+    
 </head>
 <body>
-    <?php require 'menu.php' ?>
-    <div>
-        <form id="login" action="validacao.php">
-            <fieldset>
+    <?php require 'menu.php'?>
+    <section>
+        <fieldset> 
                 <legend>Login</legend>
                 <br>
                 <div class="inputBox">
@@ -33,8 +30,7 @@
                  <br><br>
                  <input type="reset" name="reset" id="reset">
             </fieldset>
-        </form>
-    </div>
+    </section>
     <?php require 'rodape.php' ?>
 </body>
 </html>
