@@ -21,8 +21,9 @@ $registros = mysqli_num_rows($consulta);
     <link rel="stylesheet" href="estilos/estiloconsulta.css">
    
 </head>
+
 <body>
-    <?php require 'menu.php' ?>
+    <?php require_once 'menu.php' ?>
     <div class="container">
         <nav id="consulta">
             <ul class="menu">

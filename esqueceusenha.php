@@ -26,14 +26,11 @@ echo substr(md5(time()),0 ,6);
 </head>
 
 <body>
-    <header>
-        <h1>Cultura e Arte</h1>
-    </header>
-         <!--<object width="100%" data="menu.html"></object>-->
-         
+
+    <?php require_once 'menu.php' ?>               
     <div class="box">
         <form action="">
-            <a href="index.php"> <img src="imagens/menuico.png"/></a>
+            
             <fieldset>
                 <legend>Esqueceu sua senha</legend>
                 <br>
@@ -46,6 +43,6 @@ echo substr(md5(time()),0 ,6);
             </fieldset>
         </form>
     </div>
-    <?php require 'rodape.php' ?>
+    <?php require_once 'rodape.php' ?>
 </body>
 </html>

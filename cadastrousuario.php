@@ -15,11 +15,12 @@
     <script>
       alert()
     </script>
+</head>
+
 <body>
-      <?php require 'menu.php' ?>
+   <?php require_once 'menu.php' ?>
        <div class="box">
         <form action="processaconecta.php" method="post">
-         <a href="index.php"> <img src="imagens/menuico.png"/></a>
             <fieldset>
                <legend><b>Cadastro de Usuários</legend>
                <br>

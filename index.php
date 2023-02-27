@@ -8,12 +8,11 @@
     <meta name="keywords" content="Cultura,Incentivo, Projeto Cultural">
     <meta name="autor" content="Afonso Henrique Fraga de Souza">
     <title>Cad+</title>
-    <link rel="stylesheet" href="estilos/paletadecores.css">
-    <link rel="stylesheet" href="estilos/estilos.css"> 
-    <link rel="stylesheet" href="estilos/estiloformlogin.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
 </head>
+
 <body>
-    <?php require 'menu.php'?>
+    <?php require_once 'menu.php'?>
     <section class="img" id="img06">
         <h2>Cultura em sua essência:</h2>
         <p>

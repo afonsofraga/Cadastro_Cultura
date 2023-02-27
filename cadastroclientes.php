@@ -7,11 +7,12 @@
     <title>Cadastro de Usuários</title>
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
+</head>
+
 <body>
-   <?php require 'menu.php' ?>
+   <?php require_once 'menu.php' ?>
     <div class="box">
         <form action="index.php" method="post">
-         <a href="index.php"> <img src="imagens/menuico.png"/></a>
             <fieldset class="principal">
                 <legend><b>Cadastro de Clientes></legend>
                 <br>

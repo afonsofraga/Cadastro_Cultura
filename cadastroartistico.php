@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
+
 <body>
-    <?php require 'menu.php' ?>
+    <?php require_once 'menu.php' ?>
     <div class="normal">
     <section class="normal">
         <p>

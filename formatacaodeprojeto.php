@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
+
 <body>
-    <?php require 'menu.php' ?>   
+    <?php require_once 'menu.php' ?>
     <section class="normal">
         <p>
             Uma ideia bem planejada gera um projeto bem estruturado. Mas, são muitas as variáveis entre o começo, a ideia, e o fim do projeto executado. Para a realização de um projeto cultural, a descrição, o cronograma e a definição de como o projeto será realizado se tornam itens fundamentais.

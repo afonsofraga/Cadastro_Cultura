@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
-    <?php require 'menu.php' ?>
-    <!--<object width="100%" data="menu.html"></object>-->
-    <a href="index.php"> <img src="imagens/menuico.png"/></a>
-    <?php require 'rodape.php' ?>
+    <?php require_once 'menu.php' ?>
+    <?php require_once 'rodape.php' ?>
 </body>
 </html>

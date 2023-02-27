@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
+
 <body>
-    <?php require 'menu.php' ?>
+<?php require_once 'menu.php' ?>
     <section class="normal">
         <p>
             O papel da assessoria para projetos culturais é de auxiliar o cliente e idealizador do projeto cultural à confeccionar o projeto cultural visando sua aprovação junto ao Ministério da Cultura.

@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
+
 <body>
-    <?php require 'menu.php' ?>
-    <?php require 'rodape.php' ?>
+    <?php require_once 'menu.php' ?>
+    <?php require_once 'rodape.php'?>
     
 </body>
 </html>

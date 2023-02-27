@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
+
 <body>
-    <?php require 'menu.php' ?>
-    <a href="index.php"> <img src="imagens/menuico.png"/></a>
+    <?php require_once 'menu.php' ?>
     <section class="normal">
         <p>
             Visando disponibilizar para todo artista uma ferramenta de apresentação pessoal e auto promoção. 

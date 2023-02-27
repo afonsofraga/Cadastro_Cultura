@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
+</head>
+
 <body>
-   <?php require 'menu.php' ?>
+    <?php require_once 'menu.php' ?>
        <div class="box">
         <form action="processacontato.php" method="post" id="contato">
-         <a href="index.php"> <img src="imagens/menuico.png"/></a>
             <fieldset>
                 <legend><b>Formulário de Contato</legend>
                 <br>
