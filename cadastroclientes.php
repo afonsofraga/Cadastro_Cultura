@@ -10,7 +10,7 @@
 </head>
 
 <body>
-   <?php require_once 'menu.php' ?>
+   <?php require 'menu.php' ?>
     <div class="box">
         <form action="index.php" method="post">
             <fieldset class="principal">

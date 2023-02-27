@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <?php require_once 'menu.php' ?>
+    <?php require 'menu.php' ?>
        <div class="box">
         <form action="processacontato.php" method="post" id="contato">
             <fieldset>

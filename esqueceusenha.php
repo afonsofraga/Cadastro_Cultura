@@ -27,7 +27,7 @@ echo substr(md5(time()),0 ,6);
 
 <body>
 
-    <?php require_once 'menu.php' ?>               
+    <?php require 'menu.php' ?>               
     <div class="box">
         <form action="">
             
@@ -43,6 +43,6 @@ echo substr(md5(time()),0 ,6);
             </fieldset>
         </form>
     </div>
-    <?php require_once 'rodape.php' ?>
+    <?php require 'rodape.php' ?>
 </body>
 </html>

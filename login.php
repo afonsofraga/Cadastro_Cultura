@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <?php require_once 'menu.php'?>
+    <?php require 'menu.php'?>
     <div class="box">
         <form action="processaconecta.php" method="post">
             <fieldset> 
@@ -34,6 +34,6 @@
             </form>
         </section>
     </div>
-    <?php require_once 'rodape.php' ?>
+    <?php require 'rodape.php' ?>
 </body>
 </html>

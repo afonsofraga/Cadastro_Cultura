@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <?php require_once 'menu.php' ?>
+    <?php require 'menu.php' ?>
     <section class="normal">
         <p>
             Visando disponibilizar para todo artista uma ferramenta de apresentação pessoal e auto promoção. 

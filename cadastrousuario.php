@@ -18,7 +18,7 @@
 </head>
 
 <body>
-   <?php require_once 'menu.php' ?>
+   <?php require 'menu.php' ?>
        <div class="box">
         <form action="processaconecta.php" method="post">
             <fieldset>

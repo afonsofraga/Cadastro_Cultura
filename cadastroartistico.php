@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php require_once 'menu.php' ?>
+    <?php require 'menu.php' ?>
     <div class="normal">
     <section class="normal">
         <p>

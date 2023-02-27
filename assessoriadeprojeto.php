@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<?php require_once 'menu.php' ?>
+<?php require 'menu.php' ?>
     <section class="normal">
         <p>
             O papel da assessoria para projetos culturais é de auxiliar o cliente e idealizador do projeto cultural à confeccionar o projeto cultural visando sua aprovação junto ao Ministério da Cultura.

@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <?php require_once 'menu.php' ?>
+    <?php require 'menu.php' ?>
     <section>
         <div class="box"
          id="menu_servicos">
@@ -23,7 +23,7 @@
         
     </section>
 
-    <?php require_once 'rodape.php' ?>
+    <?php require 'rodape.php' ?>
 </body>
 
 </html>
