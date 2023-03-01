@@ -10,6 +10,6 @@ if (isset($_POST['email']) && isset($_POST['senha']) && $conexao != null) {
   $conexao->execute (array ($_POST['email'], $_POST['senha']));
   echo $query->rowCount();
 }else{
-  echo "não tem poste"
+  echo "não tem poste";
 }
 ?>
