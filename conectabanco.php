@@ -2,11 +2,12 @@
 
 $hostname = "localhost";
 $usuario = "root";
-$passaword = "";
+$senha = "";
 $bancodedados = "sitecultura";
-$conexao = mysqli_connect($hostname,$usuario,$passaword,$bancodedados);
-
-if (!$conexao) {
-    print " Falha na conexão com o banco de dadsos";
+try{
+    $conexao = new PDO('mysql:host=localhost;dbname=sitecultura', $usuario,$senha);
+    $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch(PDOException $erro) {
+    $conexao = null
 }
 ?>

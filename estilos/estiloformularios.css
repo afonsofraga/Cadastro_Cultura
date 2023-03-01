@@ -8,10 +8,11 @@
     padding: 5;
 }
 
-div {
-    position: relative;
-    padding: 20px;
+form{
+
+
 }
+
 fieldset{
     border: 1px solid var(--cor09);
     padding: 10px;

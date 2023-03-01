@@ -10,13 +10,13 @@
 <body>
     <?php require 'menu.php'?>
     <div class="box">
-        <form action="processaconecta.php" method="post">
+        <form action="validacao_login.php" method="post">
             <fieldset> 
                 <legend>Login</legend>
                 <br>
                 <div class="inputBox">
-                    <input value="" type="text" name="cpf" id="cpf" class="inputUser" required>
-                    <label form="cpf" class="labelInput">CPF</label         >
+                    <input value="" type="email" name="email" id="email" class="inputUser" value="<?php echo $_SESSION['email']?>" required>
+                    <label form="email" class="labelInput">E-mail</label         >
                 </div>
                 <br>
                                     
@@ -25,7 +25,7 @@
                     <label form="senha" class="labelInput">Senha</label>
                 </div>
                 <br>
-                <a href="esqueceusenha.html">Esqueceu sua senha?</a>
+                <a href="esqueceusenha.php">Esqueceu sua senha?</a>
                 <br><br>
                 <input type="submit" name="submit" id="submit">
                 <br><br>
