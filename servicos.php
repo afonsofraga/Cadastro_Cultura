@@ -1,3 +1,22 @@
+<?php 
+session_start();
+
+if (isset($_SESSION['usuario']) && is_array($_SESSION['usuario'])){
+    $adm = $_SESSION['nivel'][1];
+    $nome = $_SESSION['usuario'][0];
+
+}else{
+    echo '<script>window.location = "login.php"</script>';
+}
+
+
+?>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,6 +30,7 @@
 
 <body>
     <?php require 'menu.php' ?>
+    <form action="logout.php">
     <section>
         <div class="box"
          id="menu_servicos">
@@ -22,7 +42,7 @@
         </div>
         
     </section>
-
+    </form>
     <?php require 'rodape.php' ?>
 </body>
 

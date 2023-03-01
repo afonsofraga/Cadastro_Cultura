@@ -1,6 +1,6 @@
 <?php
 
-include_once("conectabanco.php");
+require("conectabanco.php");
 date_default_timezone_set('UTC');
 //Variáveis
 $nome = $_POST['nome'];

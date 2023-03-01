@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="estilos/paletadecores.css">
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/estiloformularios.css">
-    <script>
-      alert()
-    </script>
 </head>
 
 <body>

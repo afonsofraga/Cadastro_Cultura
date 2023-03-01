@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="estilos/paletadecores.css">
-    <link rel="stylesheet" href="estilos/estilos.css">
+    
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
 
@@ -34,7 +34,8 @@
                  <br>
 
                 <div class="textarea">
-                     <textarea name="mensagem" id="mensagem" class="mensagem" placeholder="Digite sua mensagem aqui"></textarea> 
+                     <textarea name="mensagem" id="mensagem" class="mensagem"></textarea>
+                     <label form="text" class="labelInput">mensagem</label>
                 </div>
                  <br><br>
 

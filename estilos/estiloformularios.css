@@ -9,6 +9,7 @@
 }
 
 form{
+    width: 80%;
 
 
 }
@@ -16,7 +17,8 @@ form{
 fieldset{
     border: 1px solid var(--cor09);
     padding: 10px;
-    width: 95%;
+    margin-left: 30px;
+    width: 80%;
 }
 
 legend {
@@ -64,7 +66,7 @@ input[type='file'] {
     outline: none;
     color:  var(--cor02);
     font-size: 15px;
-    width: 40%;
+    width: 50%;
     letter-spacing: 2px ;
     padding: 1px;
     height: 200px;
