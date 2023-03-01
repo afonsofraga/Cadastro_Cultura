@@ -15,7 +15,7 @@
                 <legend>Login</legend>
                 <br>
                 <div class="inputBox">
-                    <input value="" type="email" name="email" id="email" class="inputUser" value="<?php echo $_SESSION['email']?>" required>
+                    <input value="" type="email" name="email" id="email" class="inputUser" value="<?php echo $_SESSION['email'];?>" required>
                     <label form="email" class="labelInput">E-mail</label         >
                 </div>
                 <br>

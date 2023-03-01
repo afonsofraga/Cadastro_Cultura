@@ -7,11 +7,12 @@ $email = $_POST['email'];
 $senha = $_POST['senha'];
 $cadastro = date('Y-m-d H:i:s');
 
-$sql = "insert into usuarios (nome,cpf,email,senha,cadastro) values ('$nome','$cpf','$email','$senha','$cadastro')";
-$salvar = mysqli_query($conexao,$sql);
-
-$linhas = mysqli_affected_rows($conexao);
-
-mysqli_close($conexao);
+$sql = $conexao->prepare("insert into usuarios (nome,cpf,senha,email,cadastro) values (?, ?, ?, ?, ?)");
+$sql->bindParam(1,'$nome');
+$sql->bindParam(1,'$cpf');
+$sql->bindParam(1,'$senha');
+$sql->bindParam(1,'$email');
+$sql->bindParam(1,'$cadastro');
+$sql->execute();
 
 ?>
