@@ -10,7 +10,9 @@
 </head>
 <body>
 <header>
-      <h1>Cultura e Arte</h1>
+      <h1>Cultura e Arte </h1> 
+      <img src="imagens/ArtCult.png">
+      
 </header>
 <nav id="menu">
         <ul>
