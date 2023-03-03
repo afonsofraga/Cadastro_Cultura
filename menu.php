@@ -10,7 +10,9 @@
 </head>
 <body>
 <header>
+    <div>
       <img src="imagens/site.png">
+    </div>
       
 </header>
 <nav id="menu">
