@@ -8,10 +8,10 @@
 </head>
 
 <body>
-    <?php require 'menu.php'?>
+    <?php require_once 'menu.php'?>
     <div class="box">
         <form action="validacao_login.php" method="post">
-            <fieldset> 
+            <fieldset>
                 <legend>Login</legend>
                 <br>
                 <div class="inputBox">
@@ -20,20 +20,22 @@
                 </div>
                 <br>
                                     
-                <div class="inputBox"> 
+                <div class="inputBox">
                     <input value="" type="password" name="senha" id="senha" class="inputUser" required>
                     <label form="senha" class="labelInput">Senha</label>
                 </div>
                 <br>
                 <a href="esqueceusenha.php">Esqueceu sua senha?</a>
                 <br><br>
-                <input type="submit" name="submit" id="submit">
-                <br><br>
-                <input type="reset" name="reset" id="reset">
+                <div class="botoes">
+                    <input type="submit" name="submit" id="submit">
+                    <br><br>
+                    <input type="reset" name="reset" id="reset">
+                </div> 
             </fieldset>
             </form>
         </section>
     </div>
-    <?php require 'rodape.php' ?>
+    <?php require_once 'rodape.php' ?>
 </body>
 </html>

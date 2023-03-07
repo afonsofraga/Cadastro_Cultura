@@ -181,8 +181,10 @@ nav ul ul ul li a:hover {
 }
 
 #login {
-    float:left;
-    margin-top: 10px;
+    float:right;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
 
 }
 section {
@@ -276,7 +278,7 @@ footer a {
 
 footer{
     position: realtive;
-    background-color: var(--cor04);
+    background-color: var(--cor02);
     text-align: center;
     padding: 10px;
     color: var(--cor01);  
