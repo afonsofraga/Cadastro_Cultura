@@ -3,17 +3,16 @@
 require("conectabanco.php");
 date_default_timezone_set('UTC');
 //Variáveis
-$nome = $_POST['nome'];
-$email = $_POST['email'];
+$nome = filter_input(input_POST,'nome');
+$email = filter_input(input_POST,'email',FILTER_SANITIZE_EMAIL);
 $mensagem = $_POST ['mensagem'];
 $data_envio = date('d/m/Y');
 //erro na hora arrumar
 $hora_envio = date('H:i:s');
 
 $sql = "insert into contatos (nome,email,mensagem,dataenvio,horaenvio) values ('$nome','$email','$mensagem','$data_envio','$hora_envio')";
-$salvar = mysqli_query($conexao,$sql);
-
-$linhas = mysqli_affected_rows($conexao);
+$salvar = $conexao->prepare($sql);
+$sALVAR->execute([$nome,$cpf,$email,$mensagem,$data_envio,$hora_envio]);
 
 // enviar email 
 
@@ -23,7 +22,7 @@ $linhas = mysqli_affected_rows($conexao);
   $assunto = "Contato pelo Site";
 
   // Compo E-mail
-  $arquivo = "adfonso henrique fraga de souza ";
+  $arquivo = "Afonso henrique fraga de souza ";
 
   // É necessário indicar que o formato do e-mail é html
   $headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -40,11 +39,6 @@ $linhas = mysqli_affected_rows($conexao);
   $mgm = "ERRO AO ENVIAR E-MAIL!";
   echo "";
   }
-
-
-
-
-mysqli_close($conexao);
 
 ?>
 
