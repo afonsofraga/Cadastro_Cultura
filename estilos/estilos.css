@@ -29,7 +29,7 @@ body{
 header{
     background-color: var(--cor02);
     text-align: center;
-    height: 100px;
+    height: 70px;
 }
 header h1{
     padding-top: 20px;
@@ -42,10 +42,12 @@ header h1{
 
 nav#menu{
         position: relative;
+        margin: auto;
+        padding: 10px;
 }
 
 nav{
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     font-size: 1.2vw;
     position: relative;
@@ -194,6 +196,7 @@ section {
     padding-right: 30px;
     line-height: 2em;
     color: var(--cor02);
+    font-size: 1.2vw;
 }
 section.normal{
     color: var(--cor01); 
@@ -206,7 +209,7 @@ section.imagem{
 }
 
 section > p {
-    width: 400px;
+    width: 30%;
     text-align: justify;
     text-indent: 10px;
   
@@ -264,7 +267,6 @@ section#img06 {
 }
 
 div#menu_servicos{
-    
     background-size: cover;
     box-shadow: inset 10px 10px 13px 0px rgba(0, 0, 0, 0.4);
     color: var(--cor01);
@@ -272,7 +274,7 @@ div#menu_servicos{
 }
 
 footer a {
-    color:var(--cor11);
+    color:var(--cor09);
     text-decoration: none;
 }
 
@@ -281,7 +283,8 @@ footer{
     background-color: var(--cor02);
     text-align: center;
     padding: 10px;
-    color: var(--cor01);  
+    color: var(--cor01);
+    font-size: 1.2vw;  
 }
 
 footer a:hover{

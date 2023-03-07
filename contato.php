@@ -16,7 +16,7 @@
 
 <body>
     <?php require 'menu.php' ?>
-       <div class="box">
+       <div class="contato">
         <form action="processacontato.php" method="post" id="contato">
             <fieldset>
                 <legend><b>Formulário de Contato</legend>
@@ -33,12 +33,12 @@
                  </div>
                  <br>
 
-                <div class="textarea">
-                     <textarea name="mensagem" id="mensagem" class="mensagem"></textarea>
-                     <label form="text" class="labelInput">mensagem</label>
+                <div class="inputBox">
+                    <textarea class="textarea" name="textarea" id="textarea" cols="40" rows="20" required>
+                    </textarea>
+                    <label form="textarea" class="labeltextarea">Menagem</label>
                 </div>
-                 <br><br>
-
+                 <br>
                  <input type="submit" name="submit" id="submit" value="Enviar">
             </fieldset>
         </form>

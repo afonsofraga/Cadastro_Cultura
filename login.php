@@ -9,14 +9,14 @@
 
 <body>
     <?php require_once 'menu.php'?>
-    <div class="box">
+    <div class="login">
         <form action="validacao_login.php" method="post">
             <fieldset>
                 <legend>Login</legend>
                 <br>
                 <div class="inputBox">
                     <input value="" type="email" name="email" id="email" class="inputUser" value="<?php echo $_SESSION['email'];?>" required>
-                    <label form="email" class="labelInput">E-mail</label         >
+                    <label form="email" class="labelInput">E-mail</label>
                 </div>
                 <br>
                                     
@@ -31,7 +31,7 @@
                     <input type="submit" name="submit" id="submit">
                     <br><br>
                     <input type="reset" name="reset" id="reset">
-                </div> 
+                </div>
             </fieldset>
             </form>
         </section>

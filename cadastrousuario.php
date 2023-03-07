@@ -14,15 +14,22 @@
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
 
+<?php
+    session_start();
+    if(isset($_SESSION['erroCampoNome'])){
+        echo "<p style='color: #FF0000;'>".$_SESSION['erroCampoNome']."</p>";
+        unset($_SESSION['erroCampoNome']);
+    }
+?>
 <body>
    <?php require 'menu.php' ?>
-       <div class="box">
+       <div class="cadastrousuario">
         <form action="processaconecta.php" method="post">
             <fieldset>
                <legend><b>Cadastro de Usuários</legend>
                <br>
                <div class="inputBox"> 
-                  <input type="text" name="nome" id="nome" class="inputUser" required>
+                  <input type="text" name="nome" id="nome" class="inputUser">
                   <label form="nome" class="labelInput">Nome completo</label>
                </div>
                <br>

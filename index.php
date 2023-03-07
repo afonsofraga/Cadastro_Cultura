@@ -6,9 +6,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pagina para cadastro de dados de artistas para projetos">
     <meta name="keywords" content="Cultura,Incentivo, Projeto Cultural">
-    <meta name="autor" content="Afonso Henrique Fraga de Souza">
-    <title>Cad+</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <meta name="autor" content="Afonso Henrique Fraga de Souza"> 
 </head>
 
 <body>
