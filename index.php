@@ -8,7 +8,9 @@
     <meta name="keywords" content="Cultura,Incentivo, Projeto Cultural">
     <meta name="autor" content="Afonso Henrique Fraga de Souza"> 
 </head>
-
+<?php 
+    date_default_timezone_set('America/Sao_Paulo');
+?>
 <body>
     <?php require_once 'menu.php'?>
     <section class="img" id="img06">

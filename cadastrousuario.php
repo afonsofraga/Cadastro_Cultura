@@ -1,5 +1,5 @@
 <?php 
-   include_once("validarcpf.php");
+   include_once("validafuncoes.php");
 ?>
 
 <!DOCTYPE html>
@@ -14,36 +14,29 @@
     <link rel="stylesheet" href="estilos/estiloformularios.css">
 </head>
 
-<?php
-    session_start();
-    if(isset($_SESSION['erroCampoNome'])){
-        echo "<p style='color: #FF0000;'>".$_SESSION['erroCampoNome']."</p>";
-        unset($_SESSION['erroCampoNome']);
-    }
-?>
 <body>
-   <?php require 'menu.php' ?>
+   <?php require_once 'menu.php' ?>
        <div class="cadastrousuario">
-        <form action="processaconecta.php" method="post">
+        <form action="processacadastrousuario.php" method="post" autocomplete="no">
             <fieldset>
                <legend><b>Cadastro de Usuários</legend>
                <br>
-               <div class="inputBox"> 
+               <div class="inputBox">
                   <input type="text" name="nome" id="nome" class="inputUser">
                   <label form="nome" class="labelInput">Nome completo</label>
                </div>
                <br>
-               <div class="inputBox"> 
+               <div class="inputBox">
                   <input type="cpf" name="cpf" id="cpf" class="inputUser" required onfocusout="validacpf()"><br/>
                      <label form="cpf" class="labelInput">CPF</label>
                </div>
                <br>
-               <div class="inputBox"> 
+               <div class="inputBox">
                   <input type="text" name="email" id="email" class="inputUser" required>
                   <label form="email" class="labelInput">Email</label>
                  </div>
                  <br>
-               <div class="inputBox"> 
+               <div class="inputBox">
                   <input type="password" name="senha" id="senha" class="inputUser" required>
                     <label form="senha" class="labelInput">Senha</label>
                </div>
@@ -54,6 +47,6 @@
             </fieldset>
         </form>
     </div>
-    <?php require 'rodape.php' ?>
+    <?php require_once 'rodape.php' ?>
 </body>
 </html>
