@@ -152,8 +152,6 @@ input[type='file'] {
     cursor: pointer;
     border-radius: 10px; 
     margin: 30px;
-    
-
 }
 
 #submit:hover, #reset:hover {
